@@ -14,7 +14,7 @@ from chef import (
     chef_view_pending_dishes,
     chef_fix_dish,
 )
-from cashier import cashier_print_invoice
+from cashier import cashier_print_invoice1
 from manager import (
     manager_view_report,
     manager_view_revenue,
@@ -92,7 +92,7 @@ def main():
 
             if ca == "1":
                 iid = int(input("Invoice ID: "))
-                cashier_print_invoice(iid)
+                cashier_print_invoice1(id)
 
         # MANAGER
         elif a == "5":
